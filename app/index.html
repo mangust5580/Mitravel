@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Mitravel</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="preload" href="resources/fonts/SFProDisplay/SFProDisplay-Bold.woff2" as="font">
+</head>
+
+<body>
+<div class="site-container">
+  <div class="main-menu">
+  <button class="main-menu__close btn-reset" aria-label="Close menu">
+    <svg class="main-menu__close-icon" width="32" height="32">
+      <use xlink:href="img/sprite.svg#icon-close"/>
+    </svg>
+  </button>
+  <nav class="main-menu__nav">
+    <ul class="main-menu__list">
+      <li class="main-menu__item">
+        <a class="main-menu__link" href="#">Become A Travel</a>
+      </li>
+      <li class="main-menu__item">
+        <a class="main-menu__link" href="#">Featured Stories</a>
+      </li>
+      <li class="main-menu__item">
+        <a class="main-menu__link" href="#">Featured Videos</a>
+      </li>
+      <li class="main-menu__item">
+        <a class="main-menu__link" href="#">Newsletter</a>
+      </li>
+      <li class="main-menu__item">
+        <a class="main-menu__link" href="#">Inspirations</a>
+      </li>
+      <li class="main-menu__item">
+        <a class="main-menu__link" href="#">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+  <header class="page-header">
+  <div class="container page-header__container flex">
+    <ul class="social">
+  <li class="social__item">
+    <a class="social__link social__link--facebook" href="#" aria-label="Go to Facebook">
+      <svg class="social__icon social__icon--facebook" width="11" height="20">
+        <use xlink:href="img/sprite.svg#icon-facebook"/>
+      </svg>
+    </a>
+  </li>
+  <li class="social__item">
+    <a class="social__link social__link--twitter" href="#" aria-label="Go to Twitter">
+      <svg class="social__icon social__icon--twitter" width="20" height="16">
+        <use xlink:href="img/sprite.svg#icon-twitter"/>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+    <a class="logo" href="#">Mitravel</a>
+
+    <button class="page-header__burger burger btn-reset" aria-label="Open menu">
+  <span class="visually-hidden">Open menu</span>
+</button>
+
+  </div>
+</header>
+
+  <main class="main">
+    <section class="first">
+  <div class="container first__container">
+    <a class="first__link" href="#">New book</a>
+    <h1 class="first__title">Mother Earth Hosts Our Travels</h1>
+    <p class="first__description">
+      There are not many cities that have experienced such social and political extremes in&nbsp;recent history
+      as&nbsp;Amsterdam. In&nbsp;the 20th century alone, Amsterdam faced the atrocities of&nbsp;war for the first
+      time in&nbsp;400&nbsp;years, became the radical center of&nbsp;1960s social movements
+      and witnessed a&nbsp;complete
+    </p>
+    <button class="first__btn btn-reset btn">Buy The book</button>
+    <div class="first__bottom">
+      <form class="search-form" action="/">
+  <input class="search-form__field" type="search" placeholder="Search stories">
+  <button class="search-form__btn btn-reset" aria-label="Search stories">
+    <svg class="search-form__icon search-form__icon--search" width="18" height="18">
+      <use xlink:href="img/sprite.svg#icon-search"/>
+    </svg>
+  </button>
+</form>
+
+      <div class="main-slider">
+  <div class="swiper-container">
+    <button class="main-slider__btn main-slider__btn--left btn-reset" aria-label="Arrow left">
+      <svg class="main-slider__btn-icon" width="16" height="16">
+        <use xlink:href="img/sprite.svg#icon-arrow"/>
+      </svg>
+    </button>
+    <button class="main-slider__btn main-slider__btn--right btn-reset" aria-label="Arrow right">
+      <svg class="main-slider__btn-icon" width="16" height="16">
+        <use xlink:href="img/sprite.svg#icon-arrow"/>
+      </svg>
+    </button>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="main-slider__media slider-media">
+          <button class="main-slider__play videos-play btn-reset" aria-label="Play video">
+            <svg class="main-slider__play-icon" width="68" height="68">
+              <use xlink:href="img/sprite.svg#icon-play"/>
+            </svg>
+          </button>
+          <video class="video" src="videos/main-slider/video-1.mp4" muted playsinline></video>
+        </div>
+        <p class="main-slider__text">Wonderful moutain</p>
+      </div>
+      <div class="swiper-slide">
+        <div class="main-slider__media slider-media">
+          <button class="main-slider__play videos-play btn-reset" aria-label="Play video">
+            <svg class="main-slider__play-icon" width="68" height="68">
+              <use xlink:href="img/sprite.svg#icon-play"/>
+            </svg>
+          </button>
+          <video class="video" src="videos/main-slider/video-2.mp4" muted playsinline></video>
+        </div>
+        <p class="main-slider__text">Wonderful moutain</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    <section class="become-travel">
+  <div class="container">
+    <h2 class="section-title become-travel__title">Become A Travel Pro In One Easy Lesson</h2>
+    <ul class="become-travel__list">
+      <li class="become-travel__item">
+        <a class="become-travel__link" href="#">
+          <img class="become-travel__image" src="img/become/become-1.jpg" alt="Travel image" width="367" height="551">
+          <p class="become-travel__text">Vacation Home Rental Success</p>
+        </a>
+      </li>
+      <li class="become-travel__item">
+        <a class="become-travel__link" href="#">
+          <img class="become-travel__image" src="img/become/become-2.jpg" alt="Travel image" width="367" height="551">
+          <p class="become-travel__text">Vacation Home Rental Success</p>
+        </a>
+      </li>
+      <li class="become-travel__item">
+        <a class="become-travel__link" href="#">
+          <img class="become-travel__image" src="img/become/become-3.jpg" alt="Travel image" width="367" height="551">
+          <p class="become-travel__text">Vacation Home Rental Success</p>
+        </a>
+      </li>
+      <li class="become-travel__item">
+        <a class="become-travel__link" href="#">
+          <img class="become-travel__image" src="img/become/become-4.jpg" alt="Travel image" width="367" height="551">
+          <p class="become-travel__text">Vacation Home Rental Success</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="featured">
+  <div class="container featured__container">
+    <acticle class="blog-article">
+  <a class="blog-article__category btn" href="#">Featured</a>
+  <h3 class="blog-article__title">How To&nbsp;Fly A&nbsp;Private Jet On&nbsp;Your Next Trip</h3>
+  <p class="blog-article__description">
+    The state of&nbsp;Utah in&nbsp;the United States is&nbsp;home to&nbsp;lots of&nbsp;beautiful National Parks,
+    &amp;&nbsp;Bryce Canyon
+    National Park ranks as&nbsp;three of&nbsp;the most magnificent &amp;&nbsp;awe inspiring.
+  </p>
+  <a class="blog-article__link btn" href="#">Read article</a>
+</acticle>
+
+    <div class="featured__stories">
+      <h2 class="section-title featured__title">Featured Stories</h2>
+      <ul class="feature-list">
+  <li class="feature-list__item">
+    <article class="feature-list__article">
+      <div class="feature-list__image">
+        <img src="img/avatars/avatar-1.jpg" alt="Фотография пользователя" width="48" height="48">
+      </div>
+      <div class="feature-list__text">
+        <h3 class="feature-list__title">
+          <a class="feature-list__link" href="#">Do&nbsp;A&nbsp;Sporting Stag Do&nbsp;In&nbsp;Birmingham</a>
+        </h3>
+        <time class="feature-list__date" datetime="2019-12-13 12:00">13 Dec 2019</time>
+      </div>
+    </article>
+  </li>
+  <li class="feature-list__item">
+    <article class="feature-list__article">
+      <div class="feature-list__image">
+        <img src="img/avatars/avatar-2.jpg" alt="Фотография пользователя" width="48" height="48">
+      </div>
+      <div class="feature-list__text">
+        <h3 class="feature-list__title">
+          <a class="feature-list__link" href="#">From Wetlands To&nbsp;Canals And Dams Amsterdam
+            Is&nbsp;Alive</a>
+        </h3>
+        <time class="feature-list__date" datetime="2019-12-13 12:00">13 Dec 2019</time>
+      </div>
+    </article>
+  </li>
+  <li class="feature-list__item">
+    <article class="feature-list__article">
+      <div class="feature-list__image">
+        <img src="img/avatars/avatar-3.jpg" alt="Фотография пользователя" width="48" height="48">
+      </div>
+      <div class="feature-list__text">
+        <h3 class="feature-list__title">
+          <a class="feature-list__link" href="#">Stu Unger Rise And Fall Of&nbsp;A&nbsp;Poker Genius</a>
+        </h3>
+        <time class="feature-list__date" datetime="2019-12-13 12:00">13 Dec 2019</time>
+      </div>
+    </article>
+  </li>
+  <li class="feature-list__item">
+    <article class="feature-list__article">
+      <div class="feature-list__image">
+        <img src="img/avatars/avatar-4.jpg" alt="Фотография пользователя" width="48" height="48">
+      </div>
+      <div class="feature-list__text">
+        <h3 class="feature-list__title">
+          <a class="feature-list__link" href="#">New Ideas For A&nbsp;Low Cost Vacation On&nbsp;Water</a>
+        </h3>
+        <time class="feature-list__date" datetime="2019-12-13 12:00">13 Dec 2019</time>
+      </div>
+    </article>
+  </li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+    <section class="featured-videos">
+  <div class="container featured-videos__container">
+    <h2 class="featured-videos__title section-title section-title--center">Featured Videos</h2>
+    <p class="featured-videos__description">
+      The state of&nbsp;Utah in&nbsp;the United States is&nbsp;home to&nbsp;lots of&nbsp;beautiful National Parks,
+      &amp;&nbsp;Bryce
+      Canyon National Park ranks as&nbsp;three of&nbsp;the most magnificent &amp;&nbsp;awe inspiring.
+    </p>
+  </div>
+  <div class="slider-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="featured-videos__media slider-media">
+          <button class="featured-videos__play videos-play btn-reset" aria-label="Play video">
+            <svg class="featured-videos__play-icon" width="68" height="68">
+              <use xlink:href="img/sprite.svg#icon-play"/>
+            </svg>
+          </button>
+          <video class="video" src="videos/video-slider/video-3.mp4" preload="metadata" controls muted
+                 playsinline></video>
+        </div>
+        <h3 class="slide-title">A Guide To Rocky Mountain Vacations</h3>
+      </div>
+      <div class="swiper-slide">
+        <div class="featured-videos__media slider-media">
+          <button class="featured-videos__play videos-play btn-reset" aria-label="Play video">
+            <svg class="featured-videos__play-icon" width="68" height="68">
+              <use xlink:href="img/sprite.svg#icon-play"/>
+            </svg>
+          </button>
+          <video class="video" src="videos/video-slider/video-4.mp4" preload="metadata" controls muted
+                 playsinline></video>
+        </div>
+        <h3 class="slide-title">A Guide To Rocky Mountain Vacations</h3>
+      </div>
+      <div class="swiper-slide">
+        <div class="featured-videos__media slider-media">
+          <button class="featured-videos__play videos-play btn-reset" aria-label="Play video">
+            <svg class="featured-videos__play-icon" width="68" height="68">
+              <use xlink:href="img/sprite.svg#icon-play"/>
+            </svg>
+          </button>
+          <video class="video" src="videos/video-slider/video-5.mp4" preload="metadata" controls muted
+                 playsinline></video>
+        </div>
+        <h3 class="slide-title">A Guide To Rocky Mountain Vacations</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="newsletter">
+  <div class="container">
+    <div class="newsletter__content">
+      <div class="newsletter__text">
+        <h3 class="newsletter__title section-title">Sign Up Our Newsletter</h3>
+        <p class="newsletter__description">
+          The state of&nbsp;Utah in&nbsp;the United States is&nbsp;home to&nbsp;lots of&nbsp;beautiful National
+          Parks,&amp;&nbsp;Bryce CanyonNational Park ranks as&nbsp;three of&nbsp;the mostmagnificent.
+        </p>
+      </div>
+      <form action="#" class="subscribe-form subscribe-form--sign-up">
+  <input class="subscribe-form__field" type="text" name="name" placeholder="Name">
+  <input class="subscribe-form__field" type="email" name="email"
+         placeholder="Email">
+  <input class="subscribe-form__field" type="tel" name="tel"
+         placeholder="Phone Number">
+  <button class="btn btn-reset subscribe-form__btn" type="submit">Sign Up Now</button>
+</form>
+
+    </div>
+  </div>
+</section>
+
+    <section class="inspirations">
+  <div class="container">
+    <h3 class="inspirations__title section-title section-title--center">Inspirations</h3>
+    <p class="inspirations__description">
+      The state of&nbsp;Utah in&nbsp;the United States is&nbsp;home to&nbsp;lots of&nbsp;beautiful National Parks,
+      &amp;&nbsp;Bryce Canyon National Park ranks as&nbsp;three of&nbsp;the most magnificent &amp;&nbsp;awe
+      inspiring.
+    </p>
+    <ul class="grid inspirations__list">
+      <li class="inspirations__item inspirations__item--big inspirations__item--item-1">
+        <div class="inspirations__text">
+          <a class="inspirations__category" href="#">Destinatiosn</a>
+          <h3 class="inspirations__title">
+            <a class="inspirations__title-link" href="#">Party Jokes Startling But Unnecessary</a>
+          </h3>
+          <ul class="inspirations__people">
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-5.jpg" alt="User photo" width="48" height="48">
+            </li>
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-6.jpg" alt="User photo" width="48" height="48">
+            </li>
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-7.jpg" alt="User photo" width="48" height="48">
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="inspirations__item inspirations__item--item-2">
+        <div class="inspirations__text">
+          <a class="inspirations__category" href="#">Destinatiosn</a>
+          <h3 class="inspirations__title">
+            <a class="inspirations__title-link" href="#">Traveling To&nbsp;Barcelona</a>
+          </h3>
+          <ul class="inspirations__people">
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-8.jpg" alt="User photo" width="48" height="48">
+            </li>
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-5.jpg" alt="User photo" width="48" height="48">
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="inspirations__item inspirations__item--bigheight inspirations__item--item-3">
+        <div class="inspirations__text">
+          <a class="inspirations__category" href="#">Destinatiosn</a>
+          <h3 class="inspirations__title">
+            <a class="inspirations__title-link" href="#">Party Jokes Startling But Unnecessary</a>
+          </h3>
+          <ul class="inspirations__people">
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-8.jpg" alt="User photo" width="48" height="48">
+            </li>
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-5.jpg" alt="User photo" width="48" height="48">
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="inspirations__item inspirations__item--bigheight inspirations__item--item-4">
+        <div class="inspirations__text">
+          <a class="inspirations__category" href="#">Destinatiosn</a>
+          <h3 class="inspirations__title">
+            <a class="inspirations__title-link" href="#">Maui By&nbsp;Air The Best Way Around The Island</a>
+          </h3>
+          <ul class="inspirations__people">
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-8.jpg" alt="User photo" width="48" height="48">
+            </li>
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-5.jpg" alt="User photo" width="48" height="48">
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="inspirations__item inspirations__item--bigheight inspirations__item--item-5">
+        <div class="inspirations__text">
+          <a class="inspirations__category" href="#">Destinatiosn</a>
+          <h3 class="inspirations__title">
+            <a class="inspirations__title-link" href="#">A&nbsp;Guide To&nbsp;Rocky Mountain Vacations</a>
+          </h3>
+          <ul class="inspirations__people">
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-8.jpg" alt="User photo" width="48" height="48">
+            </li>
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-5.jpg" alt="User photo" width="48" height="48">
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="inspirations__item inspirations__item--item-6">
+        <div class="inspirations__text">
+          <a class="inspirations__category" href="#">Destinatiosn</a>
+          <h3 class="inspirations__title">
+            <a class="inspirations__title-link" href="#">Traveling To&nbsp;Barcelona</a>
+          </h3>
+          <ul class="inspirations__people">
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-8.jpg" alt="User photo" width="48" height="48">
+            </li>
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-5.jpg" alt="User photo" width="48" height="48">
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="inspirations__item inspirations__item--big inspirations__item--item-7">
+        <div class="inspirations__text">
+          <a class="inspirations__category" href="#">Destinatiosn</a>
+          <h3 class="inspirations__title">
+            <a class="inspirations__title-link" href="#">A&nbsp;Guide To&nbsp;Rocky Mountain Vacations</a>
+          </h3>
+          <ul class="inspirations__people">
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-5.jpg" alt="User photo" width="48" height="48">
+            </li>
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-6.jpg" alt="User photo" width="48" height="48">
+            </li>
+            <li class="inspirations__people-item">
+              <img class="inspirations__people-avatar" src="img/avatars/avatar-7.jpg" alt="User photo" width="48" height="48">
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section
+>
+  </main>
+  <footer class="page-footer">
+  <div class="container page-footer__container flex">
+    <div class="page-footer__column">
+      <h2 class="page-footer__title">Company</h2>
+      <nav class="page-footer__list">
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">About</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Press</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Blog</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Careers</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Security</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Driver Centre</a>
+        </li>
+      </nav>
+    </div>
+    <div class="page-footer__column">
+      <h2 class="page-footer__title">Information</h2>
+      <nav class="page-footer__list">
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Our Story</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Recipes</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Nutrition</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Resources</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Newsletter</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Contact</a>
+        </li>
+      </nav>
+    </div>
+    <div class="page-footer__column">
+      <h2 class="page-footer__title">Information</h2>
+      <nav class="page-footer__list">
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Customer service</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Recommend a restaurant</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Signup a restaurant</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Jobs</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Press</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="#">Terms of use</a>
+        </li>
+      </nav>
+    </div>
+    <div class="page-footer__column">
+      <h2 class="page-footer__title">Subscribe Now</h2>
+      <form action="#" class="subscribe-form  subscribe-form--subscribe">
+  <input type="email" name="email" class="subscribe-form__field"
+         placeholder="Your email">
+  <button class="btn-reset btn subscribe-form__btn">Subscribe Now</button>
+</form>
+
+    </div>
+  </div>
+  <div class="page-footer__bottom">
+    <div class="container page-footer__bottom-container flex">
+      <small class="page-footer__copy">
+        © 2019 Mass Impressions. Designed by Tran Mau Tri Tam for Mass Impressions. All rights reserved.
+      </small>
+      <ul class="page-footer__links">
+        <li class="page-footer__links-item">
+          <a class="page-footer__link" href="#">Terms of Service</a>
+        </li>
+        <li class="page-footer__links-item">
+          <a class="page-footer__link" href="#">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</div>
+<script src="js/vendor.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

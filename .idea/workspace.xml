@@ -2,26 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d171f564-57c7-435a-8a87-c7291eb5f821" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/become-travel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/blog-article.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/feature-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/featured-videos.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/featured.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/first.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/inspirations.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/main-menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/main-slider.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/newsletter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/search-form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/sign-up-form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/subscribe-form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/parts/burger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_burger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_first.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_logo.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_main-slider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_social.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/awdawd" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/Helvetica/HelveticaNeue-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/Helvetica/HelveticaNeue-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/Playfair/PlayfairDisplay-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/Playfair/PlayfairDisplay-Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFCompactText/SFCompactText-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFCompactText/SFCompactText-Light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFCompactText/SFCompactText-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFCompactText/SFCompactText-Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFProDisplay/SFProDisplay-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFProDisplay/SFProDisplay-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFProDisplay/SFProDisplay-Heavy.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFProDisplay/SFProDisplay-Heavy.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFProDisplay/SFProDisplay-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFProDisplay/SFProDisplay-Medium.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFProText/SFProText-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SFProText/SFProText-Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/avatars/avatar-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/avatars/avatar-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/avatars/avatar-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/avatars/avatar-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/avatars/avatar-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/avatars/avatar-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/avatars/avatar-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/avatars/avatar-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/become/become-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/become/become-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/become/become-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/become/become-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/featured-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/first-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/inspirations/inspirations-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/inspirations/inspirations-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/inspirations/inspirations-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/inspirations/inspirations-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/inspirations/inspirations-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/inspirations/inspirations-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/inspirations/inspirations-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/newsletter-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/videos/main-slider/video-1.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/videos/main-slider/video-2.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/videos/video-slider/video-3.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/videos/video-slider/video-4.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/videos/video-slider/video-5.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/global.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/global.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/main.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/vendor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/vendor.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon-user.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sprite.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/main.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/vendor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -315,15 +353,15 @@
       <option name="presentableId" value="Default" />
       <updated>1622768044416</updated>
       <workItem from="1622768045746" duration="8779000" />
-      <workItem from="1622776899422" duration="11314000" />
+      <workItem from="1622776899422" duration="11507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20093000" />
+    <option name="totallyTimeSpent" value="20286000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
