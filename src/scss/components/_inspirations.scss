@@ -1,0 +1,128 @@
+.inspirations {
+
+  &__description {
+    margin: 0 auto;
+    padding-bottom: 100px;
+    max-width: 640px;
+    font-family: $SFCompact;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: $slate-gray;
+  }
+
+  &__list {
+    grid-auto-rows: minmax(500px, auto);
+    grid-gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 140px;
+  }
+
+  &__item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    color: $white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $neptune;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-image: $darkening-background;
+    }
+
+    &--big {
+      grid-column-end: span 2;
+    }
+
+    &--bigheight {
+      height: 710px;
+    }
+
+    &--item-1 {
+      background-image: url(../img/inspirations/inspirations-1.jpg);
+    }
+
+    &--item-2 {
+      background-image: url(../img/inspirations/inspirations-2.jpg);
+    }
+
+    &--item-3 {
+      background-image: url(../img/inspirations/inspirations-3.jpg);
+    }
+
+    &--item-4 {
+      background-image: url(../img/inspirations/inspirations-4.jpg);
+    }
+
+    &--item-5 {
+      background-image: url(../img/inspirations/inspirations-5.jpg);
+    }
+
+    &--item-6 {
+      background-image: url(../img/inspirations/inspirations-6.jpg);
+    }
+
+    &--item-7 {
+      background-image: url(../img/inspirations/inspirations-7.jpg);
+    }
+  }
+
+  &__text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    padding: 50px;
+  }
+
+  &__category {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  &__title {
+    margin: 20px 0;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  &__title-link {
+    color: $white;
+  }
+
+  &__people {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__people-item {
+    overflow: hidden;
+    border: 4px solid $white;
+    border-radius: 100%;
+
+    &:not(:first-child) {
+      margin-left: -15px;
+    }
+  }
+
+  &__people-avatar {
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+    object-fit: cover;
+  }
+}

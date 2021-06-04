@@ -1,0 +1,106 @@
+.page-footer {
+  border-top: 1px solid $alto;
+  padding-top: 100px;
+
+  &__container {
+    justify-content: space-between;
+  }
+
+  &__title {
+    position: relative;
+    margin-bottom: 25px;
+    padding-bottom: 30px;
+    font-family: $Helvetica;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $rangoon-green;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 48px;
+      height: 1px;
+      background-color: $aqua-forest;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 29px;
+    color: $regent-gray;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $river-bed;
+      transition: color 0.3s;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
+
+  & .subscribe-form {
+    width: 368px;
+  }
+
+  & .subscribe-form__field {
+    border-radius: 8px;
+    padding: 10px 62px 10px 30px;
+    height: 64px;
+    background-image: url(../img/icon-user.svg);
+    background-position: calc(100% - 30px) center;
+    background-repeat: no-repeat;
+  }
+
+  & .subscribe-form__btn {
+    margin-top: 16px;
+    padding: 20px 40px;
+    width: 100%;
+    height: 64px;
+  }
+
+  & {
+    margin-top: 120px;
+    border-top: 1px solid $alto;
+    padding: 30px 0;
+  }
+
+  & {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__copy {
+    margin: 0;
+    padding: 0;
+    font-family: $SFProText;
+    font-size: 13px;
+    line-height: 15px;
+    color: $regent-gray;
+  }
+
+  &__links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__links-item {
+    margin-left: 30px;
+  }
+}

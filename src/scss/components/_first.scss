@@ -1,0 +1,111 @@
+.first {
+  height: 100vh;
+  min-height: 640px;
+  color: $white;
+  background-image: url(../img/first-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: $bismark;
+
+  &__container {
+    position: relative;
+    z-index: 1;
+    padding: 200px 30px;
+    height: 100%;
+
+    @media (max-height: 1079px) {
+      padding: 140px 30px;
+    }
+
+    @media (max-height: 880px) {
+      padding: 100px 30px;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    margin: 0 0 40px;
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $white;
+    background-color: rgba(28, 46, 61, 0.4);
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $black;
+      transition: background-color 0.3s;
+    }
+
+    @media (max-height: 880px) {
+      margin: 0 0 30px;
+    }
+  }
+
+  &__title {
+    margin: 0 0 40px;
+    max-width: 40%;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 84px;
+
+    @media (max-height: 880px) {
+      font-size: 75px;
+      line-height: 80px;
+    }
+
+    @media (max-height: 820px) {
+      margin: 0 0 30px;
+      font-size: 65px;
+      line-height: 70px;
+    }
+  }
+
+  &__description {
+    margin: 0 0 70px;
+    max-width: 32%;
+    font-family: $SFCompact;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    @media (max-height: 820px) {
+      margin: 0 0 50px;
+    }
+  }
+  &__btn {
+    z-index: 10;
+    display: inline-block;
+    padding: 32px 80px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $crimson;
+      transition: background-color 0.3s;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+
+    @media (max-height: 820px) {
+      padding: 24px 60px;
+    }
+  }
+
+  &__bottom {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    z-index: -1;
+    display: flex;
+    align-items: flex-end;
+    width: calc(100% - 60px);
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,32 @@
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background-color: $white;
+
+  &__field {
+    border: 1px solid $mercury;
+    padding: 25px 0;
+    width: 100%;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    color: $gable-green;
+  }
+
+  &__btn {
+    padding: 40px 80px;
+    background-color: $neptune;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $boston-blue;
+      transition: background-color 0.3s;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
+}

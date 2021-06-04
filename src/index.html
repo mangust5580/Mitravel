@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Mitravel</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="preload" href="resources/fonts/SFProDisplay/SFProDisplay-Bold.woff2" as="font">
+</head>
+
+<body>
+<div class="site-container">
+  @include('partials/main-menu.html')
+  @include('partials/page-header.html')
+  <main class="main">
+    @include('partials/first.html')
+    @include('partials/become-travel.html')
+    @include('partials/featured.html')
+    @include('partials/featured-videos.html')
+    @include('partials/newsletter.html')
+    @include('partials/inspirations.html')>
+  </main>
+  @include('partials/page-footer.html')
+</div>
+<script src="js/vendor.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "SFProDisplay", sans-serif;
+  background-color: $white;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.is-outer {
+  position: relative !important; // stylelint-disable-line declaration-no-important
+  left: -9999px !important; // stylelint-disable-line declaration-no-important
+}
+
+.site-container {
+  overflow: hidden;
+}
+
+.is-hidden {
+  display: none !important; // stylelint-disable-line declaration-no-important
+}
+
+.error {
+  border: 2px $red-orange solid !important; // stylelint-disable-line declaration-no-important
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  background-color: $burnt-sienna;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1626px;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.visually-hidden {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+.videos-play {
+  position: absolute;
+  z-index: 50;
+  width: 32px;
+  height: 40px;
+  fill: none;
+  stroke: $white;
+  stroke-width: 4;
+  transition: stroke 0.3s;
+
+  &:hover {
+    stroke: $neptune;
+    transition: stroke 0.3s;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: $gable-green;
+
+  @media (max-width: 1200px) {
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  &--center {
+    max-width: none;
+    text-align: center;
+  }
+}
+
+.swiper-wrapper {
+  position: relative;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

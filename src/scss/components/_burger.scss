@@ -1,0 +1,40 @@
+.burger {
+  position: relative;
+  width: 48px;
+  height: 10px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    &::before,
+    &::after {
+      background-color: $neptune;
+      transition: background-color 0.3s;
+    }
+  }
+
+  &:active {
+    &::before,
+    &::after {
+      opacity: 0.6;
+    }
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background-color: $white;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    top: auto;
+    bottom: 0;
+  }
+}
